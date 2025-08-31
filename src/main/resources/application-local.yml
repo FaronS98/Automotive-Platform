@@ -1,0 +1,11 @@
+app:
+  addresses:
+    ip: 192.168.0.1
+    ip2: 192.168.0.2
+
+logging:
+  level:
+    root: INFO
+    com:
+      reply:
+        myapp: DEBUG

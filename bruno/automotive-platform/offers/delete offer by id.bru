@@ -1,0 +1,14 @@
+meta {
+  name: delete offer by id
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:8080/auth/offers/1
+  auth: inherit
+}
+
+headers {
+  Content-Type: text/plain
+}

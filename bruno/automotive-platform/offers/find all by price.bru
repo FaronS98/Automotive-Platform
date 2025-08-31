@@ -1,0 +1,17 @@
+meta {
+  name: find offer by price
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/public/offers
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "priceLessThanEqual": 50
+  }
+}
